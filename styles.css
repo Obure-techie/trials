@@ -21,6 +21,13 @@ ul.navbar a{
   color: white;
    font-weight: bold;
 }
+ul.navbar a:hover{
+  opacity: 0.5;
+}
+ul.navbar a:active{
+  opacity: 0.5;
+  color: black;
+}
 h1{
   font-size: 40px;
   color: blue;
