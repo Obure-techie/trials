@@ -1,18 +1,39 @@
-ul{
-  list-style: none;
+body{
+  background-color: rgb(150, 226, 43);
+}
+
+ul.navbar{
+  list-style-type: none;
   margin: 8px 10px;
   padding: 21px;
-  text-decoration: none;
-  background-color: #333;
-  color: white;
+  overflow: hidden;
+  background-color: #9f4786;
 }
 
 li{
   display: inline;
   padding: 28px 28px;
   margin: 10px 10px;
-  color: white;
-  text-decoration: none;
   font-size: 20px;
+}
+ul.navbar a{
+  text-decoration: none;
   color: white;
+   font-weight: bold;
+}
+h1{
+  font-size: 40px;
+  color: blue;
+  font-style: italic;
+}
+p{
+  font-size: 20px;
+  font-family: arial;
+  
+}
+address{
+  font-size: 15px;
+  margin-top: 3em;
+  border-top:  dotted;
+  text-align: end;
 }
