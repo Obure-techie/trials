@@ -8,6 +8,7 @@ ul.navbar{
   padding: 21px;
   overflow: hidden;
   background-color: #9f4786;
+  display: flex;
 }
 
 li{
